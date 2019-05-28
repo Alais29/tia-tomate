@@ -1,0 +1,14 @@
+.contact {
+	text-align: center;
+	padding: 2rem 0;
+
+	&-bg-jellybean {
+		background-color: $jelly-bean;
+		color: $white;
+	}
+
+	&__title {
+		font-size: $x-large;
+	}
+}
+

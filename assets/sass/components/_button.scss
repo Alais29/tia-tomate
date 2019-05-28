@@ -1,0 +1,21 @@
+.button {
+	border: none;
+	background-color: $white;
+	border-radius: 45px;
+	padding: 1rem 0;
+	margin: 0 auto;
+	
+	&:hover {
+		background-color: $quick-silver;
+		color: $white;
+	}
+	
+	&-big {
+		text-transform: uppercase;
+		color: $granite-gray;
+		font-weight: bold;
+		font-size: $large;
+		width: 50%;
+	}
+
+}

@@ -1,0 +1,45 @@
+.section {
+	padding: 3rem 0;
+	color: $granite-gray;
+
+	&-bg-taupe-gray {
+		background-color: $taupe-gray;
+		color: $white;
+	}
+
+	&__title-center,
+	&__image {
+		text-align: center;
+	}
+
+	&__image img {
+		max-width: 70%;
+	}
+
+	&__title {
+
+		&-xlarge-uppercase {
+			font-size: $x-large;
+			text-transform: uppercase;
+		}
+
+		&-nomargin {
+			margin: 0;
+			padding: 5rem 0;
+		}
+
+		&-bg-jellybean {
+			background-color: $jelly-bean;
+			color: $white;
+		}
+
+		&-large {
+			font-size: $large;
+		}
+	}
+
+	&__content {
+		width: 80%;
+		margin: 0 auto;
+	}
+}	

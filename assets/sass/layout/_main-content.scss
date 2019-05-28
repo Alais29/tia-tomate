@@ -1,0 +1,22 @@
+.main-content-bg-jellybean {
+	background-color: $jelly-bean;
+}
+
+.main-content__title {
+	text-align: center;
+	margin: 0;
+	padding: 13rem 0;
+
+	&-xxlarge-extralight-white {
+		font-size: $xx-large;
+		font-weight: $extra-light;
+		color: $white;
+	}
+
+	&-bold-uppercase {
+		font-weight: $bold;
+		text-transform: uppercase;
+	}
+}
+
+

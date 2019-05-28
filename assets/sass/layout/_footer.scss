@@ -1,0 +1,16 @@
+.footer {
+	padding: 5rem 0;
+
+	&__image {
+		text-align: center;
+	}
+
+	&-bg-granitegray {
+		background-color: $granite-gray;
+	}
+}
+
+.logo-footer {
+	width: 300px;
+}
+
